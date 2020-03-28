@@ -35,6 +35,8 @@
     "prettier": "^1.19.1",
     "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
     "vue-template-compiler": "^2.6.11"
   }
 }

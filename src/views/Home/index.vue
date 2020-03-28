@@ -1,5 +1,5 @@
 <template src="./template.pug" lang="pug"></template>
 
-<script src="./scripts.js"></script>
+<script src="./script.ts" lang="ts"></script>
 
-<style src="./styles.less" lang="less" scoped></style>
+<style src="./style.less" lang="less" scoped></style>

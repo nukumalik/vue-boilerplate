@@ -1,4 +1,5 @@
 import Navbar from '../../components/elements/Navbar';
+
 export default {
 	data() {
 		return {
