@@ -1,12 +1,12 @@
 <template>
 	<div id="app">
-		<Navbar :menus="menus" />
+		<Navbar :menus="menus" background="#151515" />
 		<router-view />
 	</div>
 </template>
 
 <script>
-import Navbar from './components/elements/Navbar'
+import Navbar from './components/elements/Navbar';
 export default {
 	data() {
 		return {
@@ -16,12 +16,12 @@ export default {
 				{ path: '/blog', label: 'Blog' },
 				{ path: '/contact', label: 'Contact' }
 			]
-		}
+		};
 	},
 	components: {
 		Navbar
 	}
-}
+};
 </script>
 
 <style lang="less">

@@ -1,7 +1,5 @@
-import Home from './Home.vue'
+import Home from './Home';
 
-const views = {
+export default {
 	Home
-}
-
-export default views
+};

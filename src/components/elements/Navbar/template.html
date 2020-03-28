@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-lg" :class="className" :style="{ background, color }">
+	<div class="collapse navbar-collapse" id="NavbarMenu">
+		<ul class="navbar-nav mr-auto">
+			<li v-for="(menu, index) in menus" :key="index" class="nav-item">
+				<a class="nav-link" @click="goTo(menu.path)">{{ menu.label }}</a>
+			</li>
+		</ul>
+	</div>
+	<a class="navbar-brand d-flex" @click="goTo('/')">
+		<Typography variant="secondary" type="span" color="#ECECEC">NUKU</Typography>
+		<Typography variant="secondary" type="span" color="#239580">STUDIO</Typography>
+	</a>
+	<button class="navbar-toggler" data-toggle="collapse" data-target="#NavbarMenu">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+</nav>
