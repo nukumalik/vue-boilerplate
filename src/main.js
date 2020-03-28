@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import App from './App.vue';
+import Views from './views';
 import router from './router';
 import store from './store';
 import 'jquery/dist/jquery.slim';
@@ -13,5 +13,5 @@ Vue.config.productionTip = false;
 new Vue({
 	router,
 	store,
-	render: h => h(App)
+	render: h => h(Views.App)
 }).$mount('#app');

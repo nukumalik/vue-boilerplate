@@ -1,0 +1,10 @@
+nav(class="navbar navbar-expand-lg" :class="className" :style="{ background, color }")
+	.collapse.navbar-collapse#NavbarMenu
+		ul.navbar-nav.mr-auto
+			li.nav-item(v-for="(menu, index) in menus" :key="index")
+				a.nav-link(@click="goTo(menu.path)") {{ menu.label }}
+	a.navbar-brand.d-flex(@click="goTo('/')")
+		Typography(variant="secondary" type="span" color="#ececec") NUKU
+		Typography(variant="secondary" type="span" color="#239580") STUDIO
+	button.navbar-toggler(data-toggle="collapse" data-target="#NavbarMenu")
+		span.navbar-toggler-icon

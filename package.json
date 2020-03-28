@@ -33,6 +33,8 @@
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
     "prettier": "^1.19.1",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
     "vue-template-compiler": "^2.6.11"
   }
 }

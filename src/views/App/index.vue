@@ -2,4 +2,4 @@
 
 <script src="./scripts.js"></script>
 
-<style src="./styles.less" lang="less" scoped></style>
+<style src="./styles.less" lang="less"></style>
