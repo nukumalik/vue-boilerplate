@@ -1,6 +1,6 @@
 module.exports = {
 	resolve: {
-		extensions: ['.ts', '.js', '.pug', '.html']
+		extensions: ['.ts', '.pug']
 	},
 	module: {
 		rules: [
